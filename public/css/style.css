@@ -1,0 +1,20 @@
+.container .column .card{
+    margin-bottom: 2rem;
+}
+
+body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(1) > div.column.is-9 > h6 > p , body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(3) > div.column.is-9 > h6 > p{
+    position: absolute;
+}
+
+.subtitle.is-7 .fa.fa-calendar{
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 479px){
+    #navbarExampleTransparentExample > div.navbar-start > a{
+        text-align: center;
+    }
+    .field.is-grouped {
+        justify-content: center !important;
+    }
+}
