@@ -17,4 +17,12 @@ body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > di
     .field.is-grouped {
         justify-content: center !important;
     }
+    .image.is-128x128 {
+        height: 200px !important;
+        width: 200px !important;
+        margin: 0 auto;
+    }
+    body > section > div > div > div:nth-child(1) > div > div.card-content{
+        margin-top: 6rem;
+    }
 }

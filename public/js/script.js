@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
 
 	let cardToggles = document.getElementsByClassName('card-header-icon');
 
@@ -25,5 +25,28 @@ document.addEventListener('DOMContentLoaded', function() {
 			e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
 		});
 	}
+
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+
+	let closeMessageToggles = document.querySelectorAll('.message .delete');
+
+	for (let i = 0; i < closeMessageToggles.length; i++) {
+		closeMessageToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.parentElement.classList.add('is-hidden');
+		});
+	}
+
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+
+	let mobileCardImage = document.getElementById('resume-image');
+
+	if (window.matchMedia("(max-width: 479px)").matches) {
+    mobileCardImage.classList.remove('is-2by3');
+    mobileCardImage.classList.add('is-128x128');
+  }
 
 });
