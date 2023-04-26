@@ -2,7 +2,9 @@
     margin-bottom: 2rem;
 }
 
-body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(1) > div.column.is-9 > h6 > p , body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(3) > div.column.is-9 > h6 > p{
+body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(1) > div.column.is-9 > h6 > p,
+body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(3) > div.column.is-9 > h6 > p,
+body > section > div > div > div.column.is-9 > div:nth-child(2) > div > div > div:nth-child(5) > div.column.is-9 > h6 > p{
     position: absolute;
 }
 
